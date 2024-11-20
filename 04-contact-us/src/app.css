@@ -1,0 +1,125 @@
+.contact-us-wrapper {
+  height: 60rem;
+  width: 90rem;
+  padding: 4rem;
+  background: linear-gradient(to bottom, var(--dark-blue), var(--dark-pink));
+}
+
+h1 {
+  font-size: 4rem;
+}
+.text-wrapper {
+  position: relative;
+  flex: 0 0 55%;
+  color: white;
+}
+
+.text-wrapper > p {
+  width: 40rem;
+}
+.text-wrapper img:nth-of-type(1) {
+  position: absolute;
+  bottom: -4rem;
+  left: -4rem;
+  top: -4rem;
+  height: 60rem;
+  width: 52.5rem;
+  color: white;
+}
+
+.text-wrapper img:nth-of-type(2) {
+  position: absolute;
+  right: 23rem;
+  top: 35rem;
+  height: 4rem;
+  width: 4rem;
+}
+
+.text-bubble {
+  position: absolute;
+  background: red;
+  right: 10rem;
+  top: 27.5rem;
+  width: 30rem;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  background: var(--pink);
+}
+
+.triangle {
+  position: absolute;
+  border-left: 1rem solid transparent;
+  border-right: 1rem solid transparent;
+  border-top: 2rem solid var(--pink);
+  bottom: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.form-wrapper {
+  position: relative;
+  padding: 2.5rem;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-radius: 2.4rem;
+}
+
+.form-wrapper .message {
+  font-size: 1.6rem;
+}
+
+form {
+  gap: 1.5rem;
+  margin-top: 2rem;
+  width: 100%;
+  align-items: center;
+}
+
+form > input {
+  outline: none;
+  border: solid 1px var(--grey);
+  border-radius: 0.8rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+}
+
+form > div {
+  margin-top: 1rem;
+}
+label {
+  margin-right: 2rem;
+  display: inline !important;
+}
+
+label input {
+  color: var(--dark-blue);
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  accent-color: var(--dark-blue);
+}
+
+.textarea {
+  border: solid 1px var(--grey);
+  outline: none;
+  height: 10rem;
+  padding: 1rem;
+  width: 100% !important;
+  resize: none;
+}
+
+button {
+  position: absolute;
+  bottom: 2.5rem;
+  width: calc(100% - 5rem);
+  padding: 0.75rem;
+  border-radius: 99rem;
+  border: 0;
+  color: white;
+  background: var(--pink);
+}
+
+button,
+input[type="radio"] {
+  cursor: pointer;
+}
