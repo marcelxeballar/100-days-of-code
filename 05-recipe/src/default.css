@@ -5,3 +5,116 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
+
+html {
+  font-size: 62.5%;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+p,
+label {
+  font-size: 1.4rem;
+}
+
+body {
+  max-width: 110rem;
+  margin: 0 auto;
+}
+
+.display-wrapper {
+  margin-top: 10vh;
+}
+
+.img-wrapper {
+  position: relative;
+  flex: 0 0 40%;
+}
+
+.img-wrapper P {
+  position: absolute;
+  flex: 0 0 40%;
+  bottom: 4rem;
+  padding: 1.5rem;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  width: 21rem;
+  line-height: 1.7rem;
+  font-weight: 500;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.recipe-wrapper {
+  position: relative;
+  flex: 1;
+
+  padding: 3.5rem;
+}
+
+.title-wrapper {
+  position: absolute;
+  background: white;
+  top: 4rem;
+  left: -15rem;
+  padding: 1rem 3rem;
+  width: 40rem;
+}
+
+.title-wrapper h1 {
+  font-size: 2.5rem;
+}
+
+.recipe-info {
+  margin-top: 15rem;
+}
+
+.info-icon {
+  margin-right: 0.5rem;
+}
+.time-wrapper,
+.level-wrapper,
+.budget-wrapper {
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+}
+
+.info-text {
+  color: #ffa41b;
+}
+
+.ing-wrapper,
+.inst-wrapper {
+  margin-top: 3rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+label,
+.inst-wrapper p {
+  margin-bottom: 0.5rem;
+}
+
+input[type="checkbox"],
+.step-num {
+  margin-right: 1rem;
+}
+input[type="checkbox"] {
+  width: 1.5rem;
+  height: 1.5rem;
+  accent-color: #ffa41b;
+  color: white;
+}
